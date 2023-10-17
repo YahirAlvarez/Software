@@ -9,5 +9,4 @@ def obtener_numeros():
     num1 = float(input("Ingrese el primer número: "))
     num2 = float(input("Ingrese el segundo número: "))
     
->>>>>>> 999ead5fd1eb9b05fca6ff7dd06673ed49e9354b
 return num1, num2
