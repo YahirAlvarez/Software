@@ -1,9 +1,5 @@
 Crear una calculadora en Python
 
-num1 = float(input("Ingrese el primer numero: "))
-num2 = float(input("Ingrese el segundo numero: "))
-
-
 def mostrar_menu():
     print("\n\tCalculadora SB:")
     print("1. Suma")
@@ -16,7 +12,7 @@ def mostrar_menu():
 
 import match
 
-// Parte 1: Operaciones matemáticas
+//Parte 1: Operaciones matemáticas
 def suma(a, b):
     return a + b
 
@@ -37,9 +33,6 @@ def raiz_cuadrada(a):
 
 def elevar_potencia(a, b):
     return a ** b
-def obtener_operacion():
-operacion = input("Ingrese el numero de la operacion que desea realizar (1-7): ")
-return operacion
 
 
 //Parte 3 Seleccionar la operacion
@@ -47,7 +40,7 @@ def obtener_operacion():
 operacion = input("Ingrese el numero de la operacion que desea realizar (1-7): ")
 return operacion
 
-//Parte 4 Ingresar Datos
+
 def obtener_numeros():
 
     num1 = float(input("Ingrese el primer número: "))
@@ -55,4 +48,5 @@ def obtener_numeros():
     
 return num1, num2
 
-
+>>>>>>> 3e320610a20c05826e125a6cbefef5ebb55506e8
+>>>>>>> f5dcafd54c9b1b8845d9125cdca54d3fec3eb120
