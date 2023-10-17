@@ -1,1 +1,8 @@
 Crear una calculadora en Python
+
+def obtener_numeros():
+
+    num1 = float(input("Ingrese el primer número: "))
+    num2 = float(input("Ingrese el segundo número: "))
+    
+return num1, num2
