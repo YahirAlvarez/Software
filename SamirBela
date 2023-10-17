@@ -1,12 +1,67 @@
 Crear una calculadora en Python
 <<<<<<< HEAD
+<<<<<<< HEAD
 num1 = float(input("Ingrese el primer numero: "))
 num2 = float(input("Ingrese el segundo numero: "))
 =======
 
+=======
+def mostrar_menu():
+    print("\n\tCalculadora SB:")
+    print("1. Suma")
+    print("2. Resta")
+    print("3. Multiplicación")
+    print("4. División")
+    print("5. Raíz Cuadrada")
+    print("6. Elevar a una Potencia")
+    print("7. Salir")
+=======
+
+import match
+
+# Parte 1: Operaciones matemáticas
+def suma(a, b):
+    return a + b
+
+def resta(a, b):
+    return a - b
+
+def multiplicacion(a, b):
+    return a * b
+
+def division(a, b):
+    if b != 0:
+        return a / b
+    else:
+        return "Error: No se puede dividir entre cero."
+
+def raiz_cuadrada(a):
+    return math.sqrt(a)
+
+def elevar_potencia(a, b):
+    return a ** b
+def obtener_operacion():
+operacion = input("Ingrese el numero de la operacion que desea realizar (1-7): ")
+return operacion
+=======
+<<<<<<< HEAD
+
+#Parte 3 Seleccionar la operacion
+def obtener_operacion():
+operacion = input("Ingrese el numero de la operacion que desea realizar (1-7): ")
+return operacion
+=======
+
+>>>>>>> ce2780f6d30e79e5a99b57baf88069b85f67681a
 def obtener_numeros():
 
     num1 = float(input("Ingrese el primer número: "))
     num2 = float(input("Ingrese el segundo número: "))
     
 return num1, num2
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3e320610a20c05826e125a6cbefef5ebb55506e8
+>>>>>>> f5dcafd54c9b1b8845d9125cdca54d3fec3eb120
+>>>>>>> ce2780f6d30e79e5a99b57baf88069b85f67681a
