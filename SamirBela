@@ -6,7 +6,7 @@ def obtener_numeros():
     num2 = float(input("Ingrese el segundo número: "))
     
 return num1, num2
-////
+
 #Parte 3 Seleccionar la operacion
 def obtener_operacion():
 operacion = input("Ingrese el numero de la operacion que desea realizar (1-7): ")
