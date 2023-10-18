@@ -1,1 +1,4 @@
-Crear una calduladora en Python
+#Parte 3 si
+def obtener_operacion():
+    operacion = input("Ingrese el número de la operación que desea realizar (1-7): ")
+    return operacion
