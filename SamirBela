@@ -1,0 +1,16 @@
+# Parte 6: Lógica de la calculadora
+def realizar_operacion(operacion, num1, num2):
+    if operacion == '1':
+        return suma(num1, num2)
+    elif operacion == '2':
+        return resta(num1, num2)
+    elif operacion == '3':
+        return multiplicacion(num1, num2)
+    elif operacion == '4':
+        return division(num1, num2)
+
+def realizar_raiz_cuadrada(num):
+    return raiz_cuadrada(num)
+
+def realizar_elevacion_potencia(base, exponente):
+    return elevar_potencia(base, exponente)
