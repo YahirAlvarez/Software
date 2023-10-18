@@ -1,4 +1,4 @@
-Crear una calduladora en Python
+//parte 4 Funcion lectora de datos para suma y multiplicación
 
 def obtener_numeros():
     num1 = float(input("Ingrese el primer número: "))
